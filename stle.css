@@ -1,0 +1,27 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #011638;
+    
+}
+.menu{
+    margin: 0;
+    background-color: #939AFF;
+  
+    height: 8vh;
+    width: 100vw;
+}
+.menu li{
+    font-family: 'Montserrat', sans-serif;
+}
+.teste h1{
+    font-family: 'Noto Sans', sans-serif;
+}

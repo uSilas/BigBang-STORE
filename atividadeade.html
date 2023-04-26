@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Atividade</title>
+</head>
+<script>
+
+// atividade 1
+    var nasc = prompt("digite o ano que vc nasceu");
+    var atual = prompt("agora, digite o ano atual");
+    var idade = (atual-nasc);
+    if(idade == 16){
+        document.write("voce pode votar!");
+    } else{
+        if(idade > 16){
+            document.write("voce pode votar!");    
+        }else{
+            document.write("voce nao pode votar!");
+        }
+        
+        
+    }
+
+// atividade 2
+    var num1 = prompt("digite o 1° número");
+    var num2 = prompt("digite o 2° número");
+    var num3 = prompt("digite o 3° número");
+        while(num1 != num2 && num3){
+            if(num1 != num2 && num3){
+            var soma = (num1+num2+num3);
+            var media = ((num1+num2+num3)/3);
+            var produto = (num1 * num2 * num3);
+            if(num1>num2&&num3){
+                console.log(num1 + " e maior ");
+            } else {
+                if (num2>num1&&num3){
+                    console.log(num2 + " e maior ");
+                } else {
+                    console.log(num3 + " e maior ");
+                }
+            }
+            if(num1<num2&&num3){
+                console.log(num1 + " e menor ");
+            } else {
+                if(num2<num1&&num3){
+                    console.log(num2 +" e menor ");
+                } else {
+                    console.log(num3 +" e menor ")
+                }
+            }
+    } else {
+        document.write("digite numeros diferentes!");
+    }
+ }
+
+// atividade 3
+var celsius = prompt("digite a temperatura em graus celsius");
+var fahrenheit = ((celsius * 9/5) + 32);
+document.write(fahrenheit);
+
+//atividade 4
+var vezes = prompt("digite a quantidade de pagamentos");
+switch (vezes){
+    case 1:
+        document.write(((vezes * 2.5))/100);
+        break;
+
+    case 2,3,4,5:
+        document.write(vezes); 
+        break;
+
+    case 6,7,8,9,10:
+        document.write(((vezes * 6))/100);
+
+    case 11,12,13,14,15:
+        document.write(((vezes * 13))/100);
+}
+
+</script>
+<body>
+    
+</body>
+</html>
